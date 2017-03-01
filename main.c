@@ -85,11 +85,11 @@ int main() {
 
   printf("\n\nImage\n");
   print_matrix(image);
-  draw_lines(iamge, s, c);
+  draw_lines(image, s, c);
   
   display(s);
   save_extension(s, "lines.png");
 
-  free_matrix( redPrism );
+  free_matrix( image );
 
 }  
