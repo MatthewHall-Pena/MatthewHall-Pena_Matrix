@@ -6,7 +6,7 @@ CC= gcc
 all: $(OBJECTS)
 	$(CC) -o main $(OBJECTS) $(LDFLAGS)
 
-main.o: main.c display.h draw.h ml6.h
+main.o: main.c display.h draw.h ml6.h matrix.h
 	$(CC) -c main.c
 
 draw.o: draw.c draw.h display.h ml6.h matrix.h

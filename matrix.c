@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
+#include "ml6.h"
+#include "display.h"
+#include "draw.h"
 #include "matrix.h"
+
 
 
 /*-------------- void print_matrix() --------------
